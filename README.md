@@ -1,5 +1,8 @@
 # angular-basic-project-structure
 
+![Angular](https://img.shields.io/badge/Angular-1.6.*-red.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Repozytorium zawiera podstawową strukturę katalogów dla projektów opartych o AngularJS.
 
 - [./backend/](https://github.com/Mateusz-Stempniewicz/angular-basic-project-structure/tree/master/backend) - katalog dla części serwerowej projektu. Dużo lepszym rozwiązaniem może być wydzielenie części serwerowej do osobnego     repozytorium, przy takim założeniu ten folder jest zbędny.
