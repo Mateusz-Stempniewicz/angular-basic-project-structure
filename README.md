@@ -5,3 +5,10 @@
 
 ![Angular](https://img.shields.io/badge/Angular-1.6.*-red.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## Zawartość repozytorium
+
+### Podstawowa struktura projektu
+
+- [./basic_structure/](https://github.com/Mateusz-Stempniewicz/angular-basic-project-structure/tree/master/basic_structure) - zawiera podstawową strukturę katalogów jaka jest przeważnie wykorzystywana w naszych projektach.
+
