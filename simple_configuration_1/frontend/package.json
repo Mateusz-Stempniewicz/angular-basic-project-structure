@@ -1,0 +1,19 @@
+{
+  "name": "simple_configuration_1",
+  "version": "1.0.0",
+  "description": "Przykład prostej konfiguracji aplikacji.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateusz Stempniewicz <Xcactus>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
