@@ -4,3 +4,5 @@ require('./gulp/clean');
 require('./gulp/sass');
 require('./gulp/javascript');
 require('./gulp/html');
+require('./gulp/resources');
+require('./gulp/libs');
