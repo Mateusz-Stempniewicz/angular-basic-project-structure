@@ -6,3 +6,4 @@ require('./gulp/javascript');
 require('./gulp/html');
 require('./gulp/resources');
 require('./gulp/libs');
+require('./gulp/watch');

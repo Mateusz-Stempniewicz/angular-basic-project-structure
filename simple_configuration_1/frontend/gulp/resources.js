@@ -48,3 +48,5 @@ gulp.task('fonts:Lato', function() {
   return gulp.src(path.resources + '/font/**/*.ttf')
     .pipe(gulp.dest(path.build.resources));
 });
+
+gulp.task('fonts', ['fonts:Lato']);
