@@ -7,7 +7,7 @@ var path = {
   libs: './node_modules',
   build: {
     base: './build',
-    html: './build/html',
+    html: './build',
     js: './build/js',
     css: './build/css',
     resources: './build/resources',

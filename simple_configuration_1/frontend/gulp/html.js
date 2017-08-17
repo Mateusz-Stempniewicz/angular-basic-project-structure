@@ -14,8 +14,7 @@ var buildHtml = function(production) {
     }));
   }
 
-  htmlFiles = htmlFiles.pipe(gulp.dest(path.build.html));
-  return htmlFiles;
+  return htmlFiles.pipe(gulp.dest(path.build.html));
 }
 
 gulp.task('html:dev', function() {
