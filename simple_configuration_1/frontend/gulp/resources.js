@@ -45,7 +45,7 @@ gulp.task('images:production', ['images:favicon'], function() {
 // fonts
 
 gulp.task('fonts:Lato', function() {
-  return gulp.src(path.resources + '/font/**/*.ttf')
+  return gulp.src(path.resources + '/**/*.ttf')
     .pipe(gulp.dest(path.build.resources));
 });
 

@@ -13,6 +13,7 @@
     "bootstrap": "^3.3.7",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
+    "gulp-connect": "^5.0.0",
     "gulp-cssnano": "^2.1.2",
     "gulp-flatten": "^0.3.1",
     "gulp-htmlmin": "^3.0.0",
@@ -24,6 +25,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.8",
     "jquery": "^3.2.1",
-    "requirejs": "^2.3.4"
+    "requirejs": "^2.3.4",
+    "run-sequence": "^2.1.0"
   }
 }
