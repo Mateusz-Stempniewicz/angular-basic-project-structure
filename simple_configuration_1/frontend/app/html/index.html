@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-controller="AppCtrl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simple APP</title>
+
+  <link rel="stylesheet" type="text/css" href="./libs/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+  <div>
+    <p>{{ text }}: {{ count }}</p>
+  </div>
+  <button class="btn btn-primary" ng-click="clickCount()">Click Me!!!</button>
+
+
+  <script type="text/javascript" src="./libs/js/jquery.min.js"></script>
+  <script type="text/javascript" src="./libs/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="./libs/js/angular.min.js"></script>
+
+  <script type="text/javascript" data-main="./js/app" src="./libs/js/require.min.js"></script>
+</body>
+
+</html>
