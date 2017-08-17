@@ -12,9 +12,9 @@ require('./libs');
 
 var buildProject = function(production, callback) {
   if (production) {
-    runSequence('clean', 'html:production', 'js:production', 'sass:production', 'images:production', 'fonts', 'buildLibs');
+    runSequence('clean', ['html:production', 'js:production', 'sass:production', 'images:production', 'fonts', 'buildLibs'], callback);
   } else {
-    runSequence('clean', 'html:dev', 'js:dev', 'sass:dev', 'images:dev', 'fonts', 'buildLibs');
+    runSequence('clean', ['html:dev', 'js:dev', 'sass:dev', 'images:dev', 'fonts', 'buildLibs'], callback);
   }
 };
 

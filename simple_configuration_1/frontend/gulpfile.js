@@ -8,3 +8,4 @@ require('./gulp/resources');
 require('./gulp/libs');
 require('./gulp/watch');
 require('./gulp/build');
+require('./gulp/webserver');
