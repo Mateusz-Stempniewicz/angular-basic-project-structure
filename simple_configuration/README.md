@@ -13,7 +13,7 @@ Zawiera przykładowe taski dla budowy projektu. Projekt możemy uruchomić w try
 
 ### Zależności
 Do budowy projektu wykorzystałem [Gulpa](https://gulpjs.com/) + zewnętrzne pakiety do niego.
-Pakiety zostały zainstalowane przy pomocy [npm'a](https://www.npmjs.com), ich wersje można znaleźć w pliku [package.json](https://github.com/Mateusz-Stempniewicz/angular-basic-project-structure/blob/master/simple_configuration_1/frontend/package.json)
+Pakiety zostały zainstalowane przy pomocy [npm'a](https://www.npmjs.com), ich wersje można znaleźć w pliku [package.json](https://github.com/Mateusz-Stempniewicz/angular-basic-project-structure/blob/master/simple_configuration/frontend/package.json)
 
 ```Wskazówka: Przed rozpoczęciem pracy należy sprawdzić czy są to najnowsze wersje pakietów i czy ewentualnie nie zmieniło się ich API po aktualizacji.```
 
