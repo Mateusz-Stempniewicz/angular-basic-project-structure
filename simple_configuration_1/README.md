@@ -45,9 +45,9 @@ W projekcie zostały wykorzystane również:
 2. Odpal konsolę i przejdź do katalogu ```simple_configuration_1\frontend\```
 3. Uruchom polecenie ```npm install```. Polecenie zainstaluje wszystkie dodatkowe moduły i biblioteki zawarte w pliku package.json
 4. Aplikację w trybie developerskim uruchomisz komendą ```gulp webserver```
-5. Po odpaleniu aplikacji otwórz przeglądarkę i przejdź pod adress ```localhost:10090```.
+5. Po odpaleniu aplikacji otwórz przeglądarkę i przejdź pod adress ```localhost:10090```
 
-Projekt można również zbudować pod produkcję: ``` gulp build:production```.
+Projekt można również zbudować pod produkcję: ``` gulp build:production```
 
 Przebudowanie projektu z ustawieniami produkcyjnymi nie uruchomi nam serwera lokalnego.
 
