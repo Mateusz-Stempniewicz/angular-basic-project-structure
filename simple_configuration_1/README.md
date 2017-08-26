@@ -33,9 +33,21 @@ Wykorzystane zależności:
 - [gulp-util](https://www.npmjs.com/package/gulp-util)
 - [run-sequence](https://www.npmjs.com/package/run-sequence)
 
-3. Przykład uruchomienia
-4. Prosty tutorial
+### Zewnętrzne biblioteki
+W projekcie zostały wykorzystane również:
+- [RequireJS](http://requirejs.org/)
+- [AngularJS](https://docs.angularjs.org/guide)
+- [Bootstrap](http://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
 
-- Przed rozpoczęciem pracy warto sprawdzić czy wersje pakietów gulpa się nie zmieniły i czy domyślna ich konfiguracja jest cały czas taka sama.
+### Uruchomienie projektu
+1. Zainstaluj [Node + npm](https://nodejs.org/en/download/) 
+2. Odpal konsolę i przejdź do katalogu ```simple_configuration_1\frontend\```
+3. Uruchom polecenie ```npm install```. Polecenie zainstaluje wszystkie dodatkowe moduły i biblioteki zawarte w pliku package.json
+4. Aplikację w trybie developerskim uruchomisz komendą ```gulp webserver```
+5. Po odpaleniu aplikacji otwórz przeglądarkę i przejdź pod adress ```localhost:10090```.
 
+Projekt można również zbudować pod produkcję: ``` gulp build:production```.
+
+Przebudowanie projektu z ustawieniami produkcyjnymi nie uruchomi nam serwera lokalnego.
 

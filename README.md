@@ -12,5 +12,5 @@
 
 - [./basic_structure/](https://github.com/Mateusz-Stempniewicz/angular-basic-project-structure/tree/master/basic_structure) - zawiera podstawową strukturę katalogów jaka jest przeważnie wykorzystywana jest w naszych projektach.
 
-- [./simple_configuration_1/](https://github.com/Mateusz-Stempniewicz/angular-basic-project-structure/tree/master/simple_configuration_1) - zawiera przykładową konfigurację dla aplikacji pisanych w angualrze + minimalną działającą aplikację.
+- [./simple_configuration_1/](https://github.com/Mateusz-Stempniewicz/angular-basic-project-structure/tree/master/simple_configuration_1) - zawiera przykładową konfigurację dla aplikacji pisanych w angualrze + minimalną działającą aplikację. Do budowania projektu wykorzystany został Gulp, projekt jest uruchamiany z wykorzystaniem zewnętrznego modułu gulp-connect
 
