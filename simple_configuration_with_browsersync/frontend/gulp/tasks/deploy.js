@@ -29,14 +29,14 @@ var config = {
   port: 22,
   username: servers.ssh.user,
   privateKey: servers.ssh.privateKey
-}
+};
 
 var gulpSSH = new GulpSSH({
   ignoreErrors: false,
   sshConfig: config
-})
+});
 
 gulp.task('deploy:sftp', ['build'], function() {
   return gulp.src(paths.publish.dir)
     .pipe(gulpSSH.dest(servers.ssh.remotePath))
-})
+});
