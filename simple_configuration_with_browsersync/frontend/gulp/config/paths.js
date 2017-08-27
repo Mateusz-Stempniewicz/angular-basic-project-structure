@@ -2,10 +2,10 @@ const paths = {
   /* source code */
   source: {
     dir: './source',
-    images: './src/img/**/*',
-    markup: './src/**/index.html',
-    styles: './src/scss/**/*.scss',
-    scripts: './src/js/**/*.js',
+    images: './app/img/**/*',
+    markup: './app/**/index.html',
+    styles: './app/scss/**/*.scss',
+    scripts: './app/js/**/*.js',
     specs: './spec/**/*[sS]pec.js'
   },
 
