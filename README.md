@@ -14,3 +14,5 @@
 
 - [./simple_configuration/](https://github.com/Mateusz-Stempniewicz/angular-basic-project-structure/tree/master/simple_configuration) - zawiera przykładową konfigurację dla aplikacji pisanych w angualrze + minimalną działającą aplikację. Do budowania projektu wykorzystany został Gulp, projekt jest uruchamiany z wykorzystaniem zewnętrznego modułu gulp-connect
 
+- [./simple_configuration_with_browsersync](https://github.com/Mateusz-Stempniewicz/angular-basic-project-structure/tree/master/simple_configuration_with_browsersync) - zawiera prostą konfigurację dla projektów typu SPA, świetnie nada się do tworzenia stron typu landing page. Dodatkowo dodane jest sprawdzanie kodu, oraz wykorzystany został BrowserSync
+```Project w trakcie realizacji```

@@ -10,7 +10,7 @@
 ![Angular](https://img.shields.io/badge/Angular-1.6.*-red.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Simple configuration 1
+## Simple configuration with BrowserSync
 
 ### Opis
 Zawiera przykładowe taski dla budowy projektu. Projekt możemy uruchomić w trybie developerskim lub zbudować aplikację gotową do wrzucenia na produkcję. W tym przykładzie wykorzystałem BrowserSync jako serwer lokalny.
