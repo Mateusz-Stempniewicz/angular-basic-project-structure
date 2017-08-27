@@ -1,5 +1,9 @@
 # angular-basic-project-structure
 
+```Project in progress```
+
+
+
 ![Xcactus](https://img.shields.io/badge/Company-Xcactus-ff00f4.svg)
 ![Intern](https://img.shields.io/badge/Level-Intern-brightgreen.svg)
 
@@ -18,7 +22,7 @@ Pakiety zostały zainstalowane przy pomocy [npm'a](https://www.npmjs.com), ich w
 ```Wskazówka: Przed rozpoczęciem pracy należy sprawdzić czy są to najnowsze wersje pakietów i czy ewentualnie nie zmieniło się ich API po aktualizacji.```
 
 Wykorzystane zależności:
-- [gulp](https://gulpjs.com/)
+<!-- - [gulp](https://gulpjs.com/)
 - [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
 - [gulp-connect](https://www.npmjs.com/package/gulp-connect)
 - [gulp-cssnano](https://www.npmjs.com/package/gulp-cssnano)
@@ -31,23 +35,17 @@ Wykorzystane zależności:
 - [gulp-strip-debug](https://www.npmjs.com/package/gulp-strip-debug)
 - [gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
 - [gulp-util](https://www.npmjs.com/package/gulp-util)
-- [run-sequence](https://www.npmjs.com/package/run-sequence)
+- [run-sequence](https://www.npmjs.com/package/run-sequence) -->
 
 ### Zewnętrzne biblioteki
-W projekcie zostały wykorzystane również:
-- [RequireJS](http://requirejs.org/)
-- [AngularJS](https://docs.angularjs.org/guide)
-- [Bootstrap](http://getbootstrap.com/)
-- [jQuery](https://jquery.com/)
 
 ### Uruchomienie projektu
-1. Zainstaluj [Node + npm](https://nodejs.org/en/download/) 
-2. Odpal konsolę i przejdź do katalogu ```simple_configuration_1\frontend\```
-3. Uruchom polecenie ```npm install```. Polecenie zainstaluje wszystkie dodatkowe moduły i biblioteki zawarte w pliku package.json
-4. Aplikację w trybie developerskim uruchomisz komendą ```gulp webserver```
-5. Po odpaleniu aplikacji otwórz przeglądarkę i przejdź pod adress ```localhost:10090```
-
-Projekt można również zbudować pod produkcję: ``` gulp build:production```
-
-Przebudowanie projektu z ustawieniami produkcyjnymi nie uruchomi nam serwera lokalnego.
+1. Odpal konsolę i przejdź do katalogu 
+```simple_configuration_with_browsersync\frontend\```
+2. Instalacja zależności
+```npm install```
+3. Uruchomienie aplikacji
+```gulp```
+4. Aplikacja powinna się odpalić w przeglądrce pod adresem
+```localhost:3000```
 
